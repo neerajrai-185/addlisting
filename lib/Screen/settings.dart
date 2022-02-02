@@ -24,15 +24,12 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         children: [
           ListTile(
-            //  title: Text("Sundaravel"),
             title: Obx(
               () => Text("${_auth.userObj["name"]}"),
             ),
             subtitle: Obx(
               () => Text("${_auth.userObj["mobile"]}"),
             ),
-
-            //subtitle: Text("+919876543210"),
             leading: Obx(
               () => CircleAvatar(
                 backgroundImage: NetworkImage("${_auth.userObj["imgURL"]}"),
