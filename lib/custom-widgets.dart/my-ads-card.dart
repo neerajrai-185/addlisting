@@ -17,7 +17,7 @@ class MyAdsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(8.0),
+      padding: EdgeInsets.all(9.0),
       margin: EdgeInsets.all(4.0),
       decoration: BoxDecoration(
           border: Border.all(
